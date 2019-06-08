@@ -1,0 +1,31 @@
+// Header Breadcrumbs Component Styling
+
+.breadcrumb {
+  margin-left: 40px !important;
+  background-color: #eff3f6;
+  border-radius: 0;
+
+  > li + li:before {
+    font-weight: $bold;
+    font-size: 0.9em;
+    color: #a1adbd !important;
+    content: "> " !important;
+    padding: 0 5px;
+  }
+
+  > li .active {
+    color: black;
+  }
+
+  > li > a {
+    color: #a1adbd;
+  }
+}
+
+.breadcrumb-item {
+  font-size: 0.8em;
+}
+
+.active-text-bold {
+  font-weight: $bold;
+}

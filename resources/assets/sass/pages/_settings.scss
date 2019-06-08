@@ -1,0 +1,195 @@
+.settings-card {
+	margin-top: 40px;
+	margin-left: 100px;
+}
+
+.search-input-menu {
+	padding: 0 0 0 0;
+}
+
+.search-input-location {
+	width: 250px;
+}
+
+.menu-text {
+	color: $light-gray;
+	font-size: 14px;
+	margin: 14px;
+}
+
+.menu-active-link {
+	background-color: $blue-grad-start;
+	color: white !important;
+}
+
+.menu-hover-link:hover {
+	background-color: $light-gray !important;
+}
+
+.menu-filter {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.menu-filter-right {
+	margin-left: 190px
+}
+
+.search-button {
+	height: 37px;
+}
+
+.btn-close {
+	color: $white;
+	background: transparent;
+	border: none;
+}
+
+.field-modal-margin {
+	margin-bottom: 10px;
+}
+
+.modal-header-color {
+	background-color: $blue-grad-start;
+	color: white;
+}
+
+.modal-title {
+	margin-left: 5px;
+}
+
+.modal-margin {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn-color-select {
+	margin-top: 5px;
+}
+
+.btn-color-size {
+	height: 25px;
+	width: 25px;
+	border: none;
+	@include border-radius(5px);
+	cursor: pointer
+}
+
+.bg-transparent {
+	background: transparent;
+}
+
+.bg-color-blue {
+	background-color: $blue-grad-start;	
+}
+
+.bg-color-green {
+	background-color: $green-grad-start;	
+}
+
+.bg-color-red {
+	background-color: $red;	
+}
+
+.bg-color-orange {
+	background-color: $orange;
+}
+
+.bg-color-pink {
+	background-color: $light-pink;
+}
+
+.bg-color-dark-gray {
+	background-color: $dark-gray;
+}
+
+.bg-color-light-gray {
+	background-color: $light-gray;
+}
+
+.bg-color-gray {
+	background-color: $bg-gray;
+}
+
+.color-blue {
+	color: $blue-grad-start;	
+}
+
+.color-green {
+	color: $green-grad-start;	
+}
+
+.color-red {
+	color: $red;	
+}
+
+.color-orange {
+	color: $orange;
+}
+
+.color-pink {
+	color: $light-pink;
+}
+
+.color-dark-gray {
+	color: $dark-gray;
+}
+
+.color-light-gray {
+	color: $light-gray;
+}
+
+.color-gray {
+	color: $bg-gray;
+}
+
+.modal-button {
+	background: transparent;
+	border: none;
+}
+
+.table-data-adjust-type-1{
+  margin-left: 23px;
+}
+
+.table-data-adjust-type-2{
+  margin-left: 16px;
+}
+
+.new-location-button-margin {
+	margin-left: 10px;
+}
+
+.menu-button-location-margin {
+	margin-left: 14px;	
+}
+
+.margin-right-search {
+	margin-right: 10px;
+}
+
+.btn-upload-location {
+	background-color: #F8F8FF;
+	font-weight: bold;
+	font-size: 14px;
+	box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
+	width: 120px;
+}
+
+.upload-icon-location {
+	color: $light-gray;
+}
+
+.btn-city {
+	width: 120px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.add-btn-settings{
+	width: 100%;
+	padding: 1%;
+	height: 100%;
+}

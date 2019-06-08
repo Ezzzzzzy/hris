@@ -1,0 +1,64 @@
+// ---------------------------------------------------------------------------
+
+/**
+ * #META
+ * 
+ * Import all required styling within this file (app.scss)
+ * Please read the following rulesets to further understand 
+ * our formatting and syntax
+ * 
+ * CSS RULESET: cssguidelin.es
+ * SASS RULESET: sass-guidelin.es
+ * 
+ * Please note that we are using sass-guidelin.es' commenting rules
+ * instead of its css counterpart
+ */
+
+// ----------------------------------------------------------------------------
+
+/**
+ * #ENCODING
+ *  
+ * To avoid any potential issue with character encoding, it is highly
+ * recommended to force UTF-8 encoding in the main stylesheet using
+ * the charset directive
+ */
+
+@charset 'utf-8';
+
+/**
+ * #VENDOR
+ *  
+ * The vendor directory is strictly for third-party CSS. This is handy when
+ * using prepackaged components developed by other people
+ */
+
+@import "vendor/_all";
+
+/**
+ * #PARTIALS
+ * 
+ * The partials directory serves to better break things down into much finer 
+ * categories such as typography, buttons, textboxes, select inputs etc
+ */
+
+@import "partials/_all";
+
+/**
+ * #COMPONENTS
+ *  
+ * The components directory is somehow similar to the partials directory but
+ * instead of breaking things down further, we'll think "component"
+ * Example: Header, Footer, Content, SideBar
+ */
+
+@import "components/_all";
+
+/**
+ * #PAGES
+ * 
+ * The pages directory is a scope specific directory. Each page component is
+ * equivalent to one stylesheet within the pages/ folder
+ */
+
+@import "pages/_all";

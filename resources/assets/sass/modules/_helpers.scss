@@ -1,0 +1,115 @@
+// Flex Reusables
+.flex-container {
+	display: flex;
+
+	.flex-1 {
+		flex: 1;
+	}
+
+	.flex-2 {
+		flex: 2;
+	}
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.flex-space-between {
+	justify-content: space-between;
+}
+
+// End of Flex Reusables
+
+.margin-horizontal {
+	margin: 0 10px;
+}
+
+.margin-left-5 {
+	margin-left: 5px;
+}
+
+.margin-left-10 {
+	margin-left: 10px;
+}
+
+.margin-right-10 {
+	margin-right: 10px;
+}
+
+.margin-left-20 {
+	margin-left: 20px;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+
+.margin-left-30 {
+	margin-left: 30px;
+}
+
+.margin-top-39 {
+	margin-top: 39px;
+}
+
+.asterisk {
+	color: #ff0000;
+}
+
+.padding-10 {
+	padding: 10px;
+}
+
+.padding-20 {
+	padding: 20px;
+}
+
+.margin-horizontal-20 {
+	margin: 0 20px;
+}
+
+.margin-vertical-10 {
+	margin: 10px 0;
+}
+
+.light-container {
+	border-radius: 4px;
+	border: 1px solid #dedede;
+}
+
+.white-text {
+	color: #ffffff;
+}
+
+.bolder {
+	font-weight: bold;
+}
+
+.default-cursor {
+	cursor: default;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.resize-none {
+	resize: none;
+}

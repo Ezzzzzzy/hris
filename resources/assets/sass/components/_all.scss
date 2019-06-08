@@ -1,0 +1,24 @@
+/**
+ * Base COMPONENT Partial File
+ *  
+ * components/_all.scss
+ * 
+ * This file serves as the base file for all of our partial CSS within the 
+ * components folder
+ * 
+ * Please include your component's partial stylesheet accordingly to avoid 
+ * styling errors
+ */
+
+// Temporary Imports 06/19/2018
+@import "common/_all";
+@import "screens/_all";
+
+// Component Partials
+@import "_blockquote.scss";
+@import "_button.scss";
+@import "_date-picker.scss";
+@import "_label.scss";
+@import "_modal.scss";
+@import "_breadcrumb.scss";
+@import "_table.scss";

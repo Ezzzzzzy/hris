@@ -1,0 +1,14 @@
+// Date Picker
+
+.error {
+  border: 1px solid red;
+  &:focus {
+    border: 2px solid red;
+    box-shadow: none;
+  }
+}
+
+.invalid-date {
+  margin-left: 5px;
+  color: red;
+}

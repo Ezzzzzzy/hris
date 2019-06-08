@@ -1,0 +1,51 @@
+#header-text-deployment {
+  font-size: 1.3em;
+  font-weight: 900;
+  position: relative;
+  top: 35%;
+  left: 4%;
+  color: #364153;
+}
+
+#nav-deployment {
+  margin-left: 2%;  
+}
+
+#breadcrumb-deployment {
+  margin-left: -1%
+}
+
+.card-container-deployment {
+  padding: 0;
+}
+
+.modal-dialog-deployment {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  max-width: 1000px;
+}
+
+.custm-modal-new-width-deployment {
+  width: 600px;
+}
+
+.modal-header-color-deployment {
+  color: #ffffff;
+  background-color: #2197F0;
+  font-size: 2em;
+}
+
+.btn-adjust-position-deployment {
+  float:right;
+}
+
+#new-deployment-button-disabled {
+  background-color: #E9EDF1;
+  color: #8F96A1;
+  border-color: #E6EAEE;
+}
+
+.cards-panel-deployment {
+  padding-right: 35px;
+}

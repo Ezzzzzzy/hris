@@ -1,0 +1,10 @@
+.header-container {
+	background-color: white;
+	padding: 1.25em;
+}
+
+.header-text {
+	color: #364153;
+	font-size: 1.5em;
+	font-weight: 900;
+}

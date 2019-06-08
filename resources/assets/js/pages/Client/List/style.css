@@ -1,0 +1,21 @@
+.container {
+	padding-top: 50px;
+}
+
+.search-input {
+	border-right: 0px;
+	border-radius: 5px 0 0 5px;
+	height: 37px;
+}
+.search-button {
+	border-radius: 0 5px 5px 0;
+	border: 1px solid #ced4da;
+	border-left: 0px;
+	background-color: #fff;
+}
+.search-row {
+	margin: 0 0 15px 0;
+}
+.searchbar-container {
+	padding: 0;
+}

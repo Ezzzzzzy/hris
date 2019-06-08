@@ -1,0 +1,11 @@
+.blockquote-container {
+    padding-top: 2em;
+}
+
+.subtitle {
+	color: #8292A6;
+	font-family: Lato, serif;
+	letter-spacing: 0px;
+    font-style: italic;
+    font-size: 12px;
+}

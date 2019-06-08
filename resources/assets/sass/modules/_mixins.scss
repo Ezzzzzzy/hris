@@ -1,0 +1,31 @@
+@mixin green-gradient {
+  background: linear-gradient(to top, $green-grad-start, $green-grad-end);
+  background: -ms-linear-gradient(to top, $green-grad-start, $green-grad-end);
+  background: -webkit-gradient(to top, $green-grad-start, $green-grad-end);
+  background: -moz-linear-gradient(to top, $green-grad-start, $green-grad-end);
+  background: -webkit-linear-gradient(
+    linear,
+    left top,
+    left bottom,
+    from($green-grad-start),
+    to($green-grad-end)
+  );
+}
+
+@mixin green-gradient-hover {
+  background: linear-gradient(to top, $green-grad-end, $green-grad-start);
+  background: -ms-linear-gradient(to top, $green-grad-end, $green-grad-start);
+  background: -webkit-linear-gradient(
+    to top,
+    $green-grad-end,
+    $green-grad-start
+  );
+  background: -moz-linear-gradient(to top, $green-grad-end, $green-grad-start);
+  background: -webkit-linear-gradient(
+    linear,
+    left top,
+    left bottom,
+    from($green-grad-end),
+    to($green-grad-start)
+  );
+}

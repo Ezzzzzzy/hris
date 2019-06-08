@@ -1,0 +1,31 @@
+.green{
+	background-color: #47B657 ;
+	color: white;
+}
+
+.orange{
+	background-color: #F5A623 ;
+	color: white;
+}
+
+.violet{
+	background-color: #BF8FE1 ;
+	color: white;
+}
+
+.red{
+	background-color: #F86B67 ;
+	color: white;
+}
+
+.table{
+	 border-radius: 5px;
+}
+
+.member-name{
+	text-decoration: underline;
+}
+
+.subdat{
+	 font-size: 10px;
+}

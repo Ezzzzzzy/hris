@@ -1,0 +1,22 @@
+.menu {
+	margin-right: 35px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li .btn {
+	color: black;
+	text-align: left;
+}
+
+li .btn:hover {
+	background: #2298f0;
+	color: #fff;
+}
+
+h6 {
+	margin-left: 14px;
+}

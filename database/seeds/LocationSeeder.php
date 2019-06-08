@@ -1,0 +1,18 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use App\Models\Location;
+
+class LocationSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+    	// populate locations table
+        factory(Location::class, 15)->create();
+    }
+}

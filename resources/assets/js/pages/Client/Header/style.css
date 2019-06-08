@@ -1,0 +1,64 @@
+#header-text {
+	vertical-align: center;
+}
+.nav-bg {
+	background-color: #2298f0;
+	height: 4em;
+}
+
+.navbar-nav > a {
+	margin: 0em 2em;
+}
+
+/* header nav */
+
+ul.nav > li.nav-item > a.active {
+	border-bottom: 0.2em solid #2196ef;
+	color: black;
+	font-weight: bold;
+}
+
+ul.nav li.nav-item a {
+	color: #a1adbd;
+	font-size: 0.9em;
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 1em;
+}
+
+ul.nav li.nav-item {
+	padding-right: 2em;
+}
+
+.custm-nav-link-text {
+	color: white !important;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+.custm-nav-link-text > span {
+	color: #86caff !important;
+	font-size: 0.9em;
+	font-weight: 200;
+}
+
+#navbar-right {
+	margin-left: auto;
+}
+
+#navbar-profile-pic {
+	padding: 0.6em;
+}
+.navbar-brand {
+	margin-left: 20px;
+}
+.drop-btn {
+	background-color: #2298f0;
+	padding: 0;
+	margin: 0;
+	border: none;
+	color: white;
+}
+.dropdown-arrow {
+	margin-left: 30px;
+}

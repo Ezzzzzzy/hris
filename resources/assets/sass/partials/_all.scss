@@ -1,0 +1,34 @@
+/*!
+ * Base Partial File
+ * 
+ * partials/_all.scss
+ * 
+ * This file serves as the base file for all of our partial CSS. We recommend
+ * setting our global variables before including our SASS modules
+ */
+
+// Font Weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+// Base Font
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+$base-font-family: "Lato", sans-serif;
+$base-font-weight: $regular;
+
+// Implement Font
+:root {
+  font-family: $base-font-family;
+}
+
+/**
+ * #MODULES
+ * 
+ * The modules directory is reserved for SASS code that doesn't cause SASS to
+ * actually output CSS. Things like mixin declarations, functions, 
+ * and variables
+ */
+
+@import "modules/_all";

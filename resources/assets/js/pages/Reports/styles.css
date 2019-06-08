@@ -1,0 +1,40 @@
+.menu-table {
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+
+.the-container {
+	width: 70%;
+	margin-left: 50px;
+}
+
+.reports-title {
+	color: #606a78;
+}
+
+/* Bar */
+.bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px 0;
+	align-items: flex-end;
+}
+
+.left-bar,
+.right-bar {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+}
+
+.left-bar > * {
+	margin-right: 10px;
+}
+
+.right-bar > * {
+	margin-left: 10px;
+}
+/* End ofBar */

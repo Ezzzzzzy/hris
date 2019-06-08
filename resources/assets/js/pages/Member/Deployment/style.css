@@ -1,0 +1,144 @@
+button {
+  background-color: Transparent;
+  border: none;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+.main-panel-deployment {
+  background-color: #1a1a1a;
+}
+
+.general-panel {
+  background-color: #ffffff;
+}
+.panel-right {
+  text-align: right;
+}
+
+.rfl-header {
+  font-size:12px;
+  font-weight: bold;
+  color: #414A56;
+}
+.rfl-body {
+  font-size: 11px;
+  color: #a4a6a8;
+}
+
+.label-red {
+	color: #f00;
+}
+
+.badge-blue {
+	background-color: #0494ed;
+	color: #fff;
+	font-weight: bold;
+	padding: 3px 5px 3px 5px;
+	font-size: 9px;
+	border-radius: .4em;
+}
+.badge-grey {
+	background-color: #7B909F;
+	color: #fff;
+	font-weight: bold;
+	padding: 3px 5px 3px 5px;
+	font-size: 9px;
+	border-radius: .4em;
+}
+.badge-green {
+	background-color: #01BB58;
+	color: #fff;
+	font-weight: bold;
+	padding: 3px 5px 3px 5px;
+	font-size: 9px;
+	border-radius: .4em;
+}
+
+.btn-modal-trigger-deployment {
+	font-family: 	Lato;
+	font-size: 13px;
+	font-weight: bold;
+}
+.btn-anchor {
+	padding: 2px 5px 2px 5px;
+}
+
+.da-date {
+	font-weight: bold;
+	color: #414A56;
+	font-size: 13px;
+}
+.da-name { 
+	font-weight: bold;
+	color: #414A56;
+	font-size: 13px;
+	text-align: right;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+.da-no-result {
+	padding: 0;
+	color:	#A1ACB7;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;	
+}
+.icon-red {
+	color: #f00;
+}
+.icon-blue {
+	color: #1193E9;
+}
+
+.general-panel {
+	background-color: #ffffff;
+}
+
+.modal-footer-deployment {
+	background-color: #F0F3F8;
+	border-radius: 0.25rem;
+}
+
+.custm-modal-maternity-width-deployment {
+	width: 400px;
+}
+.custm-modal-evaluation-width-deployment {
+	width: 400px;
+}
+.custm-modal-account-width-deployment {
+	width: 400px;
+}
+
+.custm-modal-dA-width-deployment {
+	width: 550px;
+}
+.btn-height {
+	height: 40px;
+}
+
+.remove-btn-deployment {
+	margin-top: 35px;
+	font-weight: bold;
+	color: red;
+}
+
+.status-history-deployment {
+	color: #4F5868;
+	font-size: 1.5em;
+}
+
+.ml-modal-btn-deployment {
+	color: #a4a6a8;
+	font-weight: bold;
+	font-size: 12px;
+}
+.custm-modal-btn-deployment {
+	color: #1195EA;
+	font-size: 1em;
+	font-weight: 600;
+}

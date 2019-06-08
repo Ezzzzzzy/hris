@@ -1,0 +1,110 @@
+.nav-bg {
+  background-color: $navigation-bar-bg-color;
+  height: 4em;
+}
+
+.navbar-nav > a {
+  margin: 0em 2em;
+}
+
+ul.nav > li.nav-item > a.active {
+  border-bottom: 0.2em solid #2196ef;
+  color: black;
+  font-weight: bold;
+}
+
+ul.nav > li.nav-item {
+  padding-right: 1em;
+
+  > a {
+    color: #a1adbd;
+    font-size: 0.8em;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 1em;
+  }
+}
+
+.custm-nav-link-text {
+  color: white !important;
+  font-size: 0.8em;
+  font-weight: 150;
+}
+
+#nav-user-dropdown {
+  padding-top: 7px;
+  padding-right: 1em;
+}
+
+.nav-user-name {
+  color: $white;
+  font-size: 0.8em;
+  font-weight: $base-font-weight;
+  vertical-align: bottom;
+}
+
+.user-group-title {
+  color: #86caff;
+  font-size: 0.7em;
+  font-weight: 200;
+  display: block;
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+#navbar-right {
+  margin-left: auto;
+}
+
+#navbar-profile-pic {
+  padding: 0.6em;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.drop-btn {
+  background-color: #2298f0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: white;
+}
+
+.dropdown-arrow {
+  margin-left: 30px;
+}
+
+.nav-link {
+  padding: 0.3rem;
+}
+
+.dropdown-item {
+  font-size: 12px;
+}
+
+#users-dd:hover {
+  text-decoration: none;
+}
+
+#right-item-dd {
+  padding-top: 8px;
+}
+
+#right-dd {
+  color: $white;
+  padding-left: 1em;
+}
+
+#right-dd:hover {
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  left: -450%;
+}

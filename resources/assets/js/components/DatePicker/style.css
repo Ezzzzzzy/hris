@@ -1,0 +1,8 @@
+.error{
+	border: 1px solid red;
+}
+
+.invalid-date {
+	margin-left: 5px;
+	color: red;
+}

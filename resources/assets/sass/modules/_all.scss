@@ -1,0 +1,17 @@
+/**
+ * Base MODULES Partial File
+ * 
+ * modules/_all.scss
+ * 
+ * This file serves as the base partial file for all of our partial CSS
+ * within the modules folder
+ * 
+ * Please include your module's partial stylesheet accordingly to avoid
+ * styling errors
+ */
+
+@import "_typography.scss";
+@import "_colors.scss";
+@import "_mixins.scss";
+@import "_overrides.scss";
+@import "_helpers.scss";

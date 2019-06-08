@@ -1,0 +1,13 @@
+/**
+ * Base VENDOR Partial File
+ * 
+ * Import all of your third-party css partial stylesheets within 
+ * this file.
+ * 
+ * Please be reminded that you must import your third party stylesheets
+ * in proper order. Most of your styling relies on these files 
+ */
+
+@import "_bootstrap";
+@import "_react-date-plugins";
+@import "~react-table/react-table.css";

@@ -1,0 +1,77 @@
+{
+    "existing_member_id": "asdf",
+    "last_name": "asdf",
+    "first_name": "asdf",
+    "extension_name": "asfd",
+    "middle_name": "asdf",
+    "nickname": "asdf",
+    "present_address": "asdf",
+    "present_city": "1",
+    "permanent_address": "asdf",
+    "permanent_city": "1",
+    "birthdate": "2018-07-18T10:05:18.097Z",
+    "birthplace": "asdf",
+    "gender": "Male",
+    "height": "asdf",
+    "weight": "asfd",
+    "civil_status": "asdf",
+    "telephone_number": [
+        {
+            "number": "asf"
+        }
+    ],
+    "mobile_number": [
+        {
+            "number": "asfd"
+        }
+    ],
+    "fb_address": "asfd",
+    "email_address": "asfd",
+    "sss_num": "asdf",
+    "pag_ibig_num": "asfd",
+    "philhealth_num": "asfd",
+    "tin": "asdf",
+    "school_data": [
+        {
+            "degree": "asfd",
+            "ended_at": 2021,
+            "started_at": 2020,
+            "school_name": "asfd",
+            "school_type": "Elementary"
+        }
+    ],
+    "emp_history_data": [
+        {
+            "position": "asdf",
+            "ended_at": "2018-07-19T10:05:42.058Z",
+            "started_at": "2018-07-13T10:05:40.533Z",
+            "company_name": "asdf",
+            "reason_for_leaving": "asdf"
+        }
+    ],
+    "family_data": [
+        {
+            "age": "asfd",
+            "name": "asdf",
+            "occupation": "asdf",
+            "family_type": "Mother"
+        }
+    ],
+    "emergency_data": [
+        {
+            "name": "asfd",
+            "address": "asfd",
+            "contact": "asfd",
+            "relationship": "asfd"
+        }
+    ],
+    "references_data": [
+        {
+            "name": "asd",
+            "address": "asfd",
+            "company": "asfd",
+            "contact": "asfd ",
+            "position": "asfd"
+        }
+    ]
+}

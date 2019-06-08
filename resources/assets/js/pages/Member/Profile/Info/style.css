@@ -1,0 +1,117 @@
+/* // Added -Regie */
+#div {
+	display: block;
+}
+body {
+	overflow: scroll;
+}
+
+.form-control {
+	/*height: 35px;*/
+	overflow: hidden;
+}
+.required-sign:after {
+	content: " *";
+	color: #fb9b98;
+}
+.custm-label-gender {
+	position: absolute;
+	padding-bottom: 55px;
+	padding-left: 15px;
+	font-size: 0.9em;
+	color: #8796aa;
+	font-weight: 700;
+}
+.custm-label-dp {
+	font-size: 0.9em;
+	color: #8796aa;
+	font-weight: 700;
+}
+.custm-label-mf {
+	font-size: 0.9em;
+	color: #8796aa;
+	font-weight: 700;
+}
+/* //select city dropdown */
+.custm-box-width {
+	position: absolute;
+	width: 90%;
+	left: 2px;
+}
+.custm-box-width-2 {
+	position: absolute;
+	width: 90%;
+	left: 2px;
+}
+.custm-label-city {
+	position: relative;
+	right: 8%;
+}
+/* //name ext */
+.custm-width-ext {
+	padding-left: 0;
+	margin: 0;
+}
+/* .custm-label-nameExt {
+    position: relative;
+    right: 30%;
+} */
+/* .custm-label-fname {
+    position: relative;
+    right: 3%;
+} */
+.custm-fname-box {
+	padding-left: 0;
+}
+/* //tables */
+th {
+	color: #bac2ce;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+tr {
+	font-size: 1.1em;
+	font-weight: 500;
+}
+td {
+	font-size: 1.1em;
+	font-weight: 500;
+	color: #3e495a;
+}
+td:nth-child(2) {
+	color: #95a2b3;
+}
+td:nth-child(3) {
+	color: #95a2b3;
+}
+
+td:nth-child(4) {
+	color: #4e5868;
+}
+.custm-name {
+	color: #3e495a;
+	margin-bottom: 0px;
+}
+.custm-number {
+	font-weight: 600;
+	color: #3e495a;
+}
+/* //placeholder */
+::-webkit-input-placeholder {
+	color: #8f96a1;
+	font-weight: 600;
+	font-size: 1em;
+}
+/* //dropdown */
+.select-city select {
+	color: #8796aa;
+	font-weight: 600;
+}
+
+.disableField {
+	color: #95a2b3;
+}
+
+.custm-text-hlp {
+	position: absolute;
+}

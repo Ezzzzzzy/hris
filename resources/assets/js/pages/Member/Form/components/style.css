@@ -1,0 +1,19 @@
+.card {
+	margin-bottom: 3em;
+}
+
+table > thead > tr > th {
+	color: 				#A9A9A9;
+	font-size: 		16px;
+	padding-left:  10px;
+}
+
+#dataHead {
+	color: #495057;
+	font-size: 16px;
+}
+
+#dataBody {
+	color: #A9A9A9;
+	font-size: 16px;
+}

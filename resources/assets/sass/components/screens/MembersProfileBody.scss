@@ -1,0 +1,268 @@
+body {
+    background-color: #EFF3F6;
+    // position: relative;
+}
+
+blockquote {
+    padding: 0 0.5em;
+    margin-bottom: 0;
+    border-left: 0.25em solid #069BF1;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 1.8em;
+}
+
+.custm-member-body-label {
+    padding-left: 11em;
+    padding-top: 2em;
+}
+
+.custm-textbox-align-body {
+    padding-top: 2em;
+}
+
+.custm-card-labels {
+    font-size: 0.9em;
+    color: #8796AA;
+    font-weight: 700;
+}
+
+.custm-checkbox-label {
+  font-size: 0.7em;
+  display: inline-block;
+  margin-left: 99px;
+}
+
+.custm-check-position {
+  margin-left: 83px;
+  margin-top: 7px;
+}
+
+.custm-card-radio {
+    font-size: 0.9em;
+    padding-top: 2.5em;
+}
+
+.custm-table-fonts {
+    font-size: 0.8em;
+}
+
+.custm-text-hlp {
+    font-size: 0.8em;
+    display: block;
+    font-weight: normal;
+    color: #a9a9a9;
+}
+
+.section-sub-id {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4A4A4A;
+    display: block;
+    padding-top: 0;
+}
+#section_id {
+    position: fixed !important;
+    margin-left: 75%;
+    z-index: 20;
+
+}
+#section_label_id {
+    font-size: 0.85em;
+    color: #9FA9BA;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.custm-btn-add-body {
+    margin-left: 10.3em;
+    margin-top: 10px;
+
+}
+
+.custm-btn-names {
+    font-size: 13px;
+}
+
+.adjust-year-tbox {
+    max-width: 55px;
+}
+ .adjust-year-tbox-inline {
+    display: inline-block;
+ }
+
+
+.custm-btn-adjust-position {
+    margin-top: 10px;
+    margin-left: auto;
+    padding-left: auto;
+}
+
+.reminder-label {
+    margin-top: 0;
+    font-style: italic;
+    font-size: 9px;
+    margin-left: 17px;
+}
+
+
+.custm-btn-division {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+// .container {
+//   display: block;
+//   position: relative;
+//   padding-left: 23px;
+//   margin-bottom: 5px;
+//   margin-left: 2px;
+//   padding-bottom: 4px;
+//   cursor: pointer;
+//   font-size: 12px;
+//   -webkit-user-select: none;
+//   -moz-user-select: none;
+//   -ms-user-select: none;
+//   user-select: none;
+// }
+
+
+// .container input {
+//   position: absolute;
+//   opacity: 0;
+// }
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+// .container:hover input ~ .checkmark {
+//   background-color: #ccc;
+// }
+
+
+// .container input:checked ~ .checkmark {
+//   background-color: #04D247;
+// }
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+// .container input:checked ~ .checkmark:after {
+//   display: block;
+// }
+
+
+// .container .checkmark:after {
+//   top: 6px;
+//   left: 6px;
+//   width: 5px;
+//   height: 5px;
+//   border-radius: 100%;
+//   background: white;
+// }
+
+.adujust-radio-spacing {
+
+    padding-left: 1px;
+    margin-right: auto;
+}
+
+
+
+.adjust-radio-position {
+    padding-top: 35px;
+    padding-left: 15px;
+
+}
+
+.adjust-right-radio {
+     padding-left: 30px!important;
+     margin-left: 0px!important;
+}
+
+.adjust-left-radio {
+     padding-right: 0px!important;
+     margin-right: 0px!important;
+}
+
+.save-buttons-below{
+
+    margin-bottom: 160px;
+}
+
+.custm-textbox-with-clear {
+  height: 29px;
+}
+
+.custm-height-combo {
+  height: 29px !important;
+}
+
+.cutm-remove-btn {
+  background-color: #EAECED;
+}
+
+.custm-remove-btn-link:hover {
+  text-decoration: none;
+  color: #B6C1CA;
+}
+
+.custm-remove-btn-link {
+  color: #B6C1CA;
+}
+
+.adjust-line-height {
+  line-height: 1px;
+}
+
+.adjust-year-picker {
+   z-index: 100 !important;
+}
+
+.adust-close-btn-font {
+  font-size: 1em;
+}
+
+.adjust-card-body {
+  padding-left: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #0A98EF;
+}
+
+div.year-picker {
+  height: 34px;
+  width: 150px;
+}
+
+div.picker-panel.popup-left {
+  z-index: 20;
+}
+
+div.react-datepicker-component {
+  width: 151  px !important;
+}
+
+.react-datepicker-component > .react-datepicker-input > .has-value > input {
+  width: 130px;
+}
